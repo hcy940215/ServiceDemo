@@ -32,7 +32,7 @@ public class MyService extends Service {
             @Override
             public void run() {
                 try {
-                    for (int i = 0; i < 50; i++) {
+                    for (int i = 0; i < 3100; i++) {
                         Thread.sleep(1000);
                         if (flg){
                             Log.i(TAG, "run: 第 " + (i + 1) + " 个"+"   >>>Activity传过来的"+ finalMsg);
